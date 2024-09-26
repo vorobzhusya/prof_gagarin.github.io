@@ -1,0 +1,626 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Regular.eot');
+    src: local('Geometria Regular'), local('Geometria-Regular'),
+        url('Geometria-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-Regular.woff2') format('woff2'),
+        url('Geometria-Regular.woff') format('woff'),
+        url('Geometria-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Italic.eot');
+    src: local('Geometria Italic'), local('Geometria-Italic'),
+        url('Geometria-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-Italic.woff2') format('woff2'),
+        url('Geometria-Italic.woff') format('woff'),
+        url('Geometria-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-ExtraBoldItalic.eot');
+    src: local('Geometria ExtraBold Italic'), local('Geometria-ExtraBoldItalic'),
+        url('Geometria-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-ExtraBoldItalic.woff2') format('woff2'),
+        url('Geometria-ExtraBoldItalic.woff') format('woff'),
+        url('Geometria-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-ExtraLightItalic.eot');
+    src: local('Geometria ExtraLight Italic'), local('Geometria-ExtraLightItalic'),
+        url('Geometria-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-ExtraLightItalic.woff2') format('woff2'),
+        url('Geometria-ExtraLightItalic.woff') format('woff'),
+        url('Geometria-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Medium.eot');
+    src: local('Geometria Medium'), local('Geometria-Medium'),
+        url('Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-Medium.woff2') format('woff2'),
+        url('Geometria-Medium.woff') format('woff'),
+        url('Geometria-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Light.eot');
+    src: local('Geometria Light'), local('Geometria-Light'),
+        url('Geometria-Light.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-Light.woff2') format('woff2'),
+        url('Geometria-Light.woff') format('woff'),
+        url('Geometria-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-HeavyItalic.eot');
+    src: local('Geometria Heavy Italic'), local('Geometria-HeavyItalic'),
+        url('Geometria-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-HeavyItalic.woff2') format('woff2'),
+        url('Geometria-HeavyItalic.woff') format('woff'),
+        url('Geometria-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-BoldItalic.eot');
+    src: local('Geometria Bold Italic'), local('Geometria-BoldItalic'),
+        url('Geometria-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-BoldItalic.woff2') format('woff2'),
+        url('Geometria-BoldItalic.woff') format('woff'),
+        url('Geometria-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Bold.eot');
+    src: local('Geometria Bold'), local('Geometria-Bold'),
+        url('Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-Bold.woff2') format('woff2'),
+        url('Geometria-Bold.woff') format('woff'),
+        url('Geometria-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-LightItalic.eot');
+    src: local('Geometria Light Italic'), local('Geometria-LightItalic'),
+        url('Geometria-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-LightItalic.woff2') format('woff2'),
+        url('Geometria-LightItalic.woff') format('woff'),
+        url('Geometria-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-ExtraBold.eot');
+    src: local('Geometria ExtraBold'), local('Geometria-ExtraBold'),
+        url('Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-ExtraBold.woff2') format('woff2'),
+        url('Geometria-ExtraBold.woff') format('woff'),
+        url('Geometria-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-MediumItalic.eot');
+    src: local('Geometria Medium Italic'), local('Geometria-MediumItalic'),
+        url('Geometria-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-MediumItalic.woff2') format('woff2'),
+        url('Geometria-MediumItalic.woff') format('woff'),
+        url('Geometria-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-ExtraLight.eot');
+    src: local('Geometria ExtraLight'), local('Geometria-ExtraLight'),
+        url('Geometria-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-ExtraLight.woff2') format('woff2'),
+        url('Geometria-ExtraLight.woff') format('woff'),
+        url('Geometria-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Heavy.eot');
+    src: local('Geometria Heavy'), local('Geometria-Heavy'),
+        url('Geometria-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-Heavy.woff2') format('woff2'),
+        url('Geometria-Heavy.woff') format('woff'),
+        url('Geometria-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-ThinItalic.eot');
+    src: local('Geometria Thin Italic'), local('Geometria-ThinItalic'),
+        url('Geometria-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-ThinItalic.woff2') format('woff2'),
+        url('Geometria-ThinItalic.woff') format('woff'),
+        url('Geometria-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria-Thin.eot');
+    src: local('Geometria Thin'), local('Geometria-Thin'),
+        url('Geometria-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Geometria-Thin.woff2') format('woff2'),
+        url('Geometria-Thin.woff') format('woff'),
+        url('Geometria-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-300.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-300.svg#Unbounded') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-regular.svg#Unbounded') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-500.eot');
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-500.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-500.woff2') format('woff2'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-500.woff') format('woff'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-500.ttf') format('truetype'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-500.svg#Unbounded') format('svg');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-600.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-600.woff2') format('woff2'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-600.woff') format('woff'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-600.ttf') format('truetype'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-600.svg#Unbounded') format('svg');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-700.eot');
+    src: url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-700.woff') format('woff'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-700.ttf') format('truetype'),
+        url('../fonts/unbounded-v6-cyrillic_cyrillic-ext_latin-700.svg#Unbounded') format('svg');
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Unbounded;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #251433;
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 {
+    height: auto;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 7%;
+}
+.container2 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #251433;
+}
+header {
+    z-index: 1000;
+    gap:340px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    background-color: #251433;
+
+
+}
+
+header .logo {
+    text-transform: uppercase;
+    place-items: center;
+    align-items: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo a {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+header nav ul li {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+ul {
+    display: flex;
+    gap: 36px;
+}
+
+.acc {
+    width: 30px;
+    height: 100%;
+}
+
+/* Общие стили для формы */
+form {
+    float: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5% 7%;
+    background-color: #fdfdfd;
+    border-radius: 30px;
+    box-shadow: 1px 0 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'Unbounded';
+}
+
+/* Стили заголовков */
+h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #251433;
+    margin-bottom: 20px;
+}
+
+/* Стили для меток и текстовых полей */
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #251433;
+}
+
+/* Скрыть стандартный чекбокс */
+.custom-checkbox input {
+    display: none; /* Скрываем стандартный чекбокс */
+}
+
+/* Стиль для кастомного чекбокса */
+.custom-checkbox {
+    position: relative;
+    padding-left: 40px; /* Отступ для текста */
+    cursor: pointer;
+    user-select: none; /* Запретить выделение текста */
+}
+
+/* Стиль для "чекмарка" */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px; /* Высота чекбокса */
+    width: 24px; /* Ширина чекбокса */
+    border: #251433 1px solid;
+    background-color: #eee; /* Цвет фона */
+    border-radius: 4px; /* Закругленные углы */
+}
+
+/* Эффект при наведении */
+.custom-checkbox:hover .checkmark {
+    background-color: #ccc; /* Цвет фона при наведении */
+}
+
+/* Стиль для отмеченного чекбокса */
+.custom-checkbox input:checked + .checkmark {
+    background-color: #251433; /* Цвет фона при отметке */
+}
+
+/* Стиль для галочки */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none; /* Скрыть галочку по умолчанию */
+}
+
+/* Показать галочку при отметке чекбокса */
+.custom-checkbox input:checked + .checkmark:after {
+    display: block; /* Показать галочку при отметке */
+}
+
+/* Стилизация самой галочки */
+.checkmark:after {
+    left: 9px; /* Положение галочки */
+    top: 4px; /* Положение галочки */
+    width: 5px; /* Ширина галочки */
+    height: 10px; /* Высота галочки */
+    border: solid white; /* Цвет галочки */
+    border-width: 0 2px 2px 0; /* Толщина линий галочки */
+    transform: rotate(45deg); /* Поворот для создания галочки */
+}
+
+/* Стили для текстовых полей и текстовых областей */
+input[type="text"],
+textarea {
+    font-family: 'Unbounded';
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #251433;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #251433;
+}
+/* Стили для текстовых полей и текстовых областей */
+input[type="number"],
+textarea {
+    font-family: 'Unbounded';
+    width: calc(100% - 750px);
+    padding: 10px;
+    border: 1px solid #251433;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #251433;
+}
+input[type="tel"],
+textarea {
+    font-family: 'Unbounded';
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #251433;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #251433;
+}
+input[type="email"],
+textarea {
+    font-family: 'Unbounded';
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #251433;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #251433;
+}
+textarea {
+    resize: vertical; /* Позволяет изменять размер только по вертикали */
+}
+
+/* Стили для кнопки отправки */
+button[type="submit"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Unbounded;
+    text-transform: lowercase;
+    background-color: #251433; /* Зеленый цвет */
+    color: white;
+    padding: 2%;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    padding-top: 5%;
+}
+button[type="submit"]:hover {
+    background-color: #160a21; /* Более темный зеленый при наведении */
+}
+
+
+/* Стили для текста внутри секций */
+p {
+    font-size: 18px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.result_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 7%;
+    width: 80%; /* Задайте нужную ширину, например, 80% */
+    max-width: 1200px; /* Максимальная ширина, если нужно */
+    margin: 0 auto; /* Центрирование элемента по горизонтали */
+}
+.result_cont h2{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.result_cont p{
+    width: 1000px;
+    display: flex;
+
+    }
+footer {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    background-color: #251433;
+}
+
+.nav_f {
+    padding: 5% 7%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.nav_f a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav_f p{
+    color: #fff;
+    font-family: Geometria;
+    font-weight: 300;
+    margin: 0;
+}
+.info_f {
+    padding: 5% 7%;
+    align-items: flex-end;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: repeat(3, 100px); 
+}
+
+.sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: #fff 2px solid;
+}
+.sm a{
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.back_arrow{
+    border: #fff 2px solid;
+    width: 100px;
+    height: 100px;
+}
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 40px solid #fff; 
+    margin: 28px auto; 
+    cursor: pointer;
+    animation: bounce 1s infinite alternate; 
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.footer_bottom {
+    max-width: 1600px;
+    margin: 0 auto;
+}
